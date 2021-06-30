@@ -1,0 +1,1 @@
+var movieType = prompt (" What ")
