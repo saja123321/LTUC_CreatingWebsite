@@ -13,7 +13,7 @@ if (movieType == "horror" || movieType == "h" || movieType == "H") {
 
 
 
-    HorrorMovie()
+    HorrorMovie(x+1)
 
   }
 }
@@ -29,10 +29,10 @@ else if (movieType == "crime" || movieType == "c" || movieType == "C") {
 }
 
 
-function HorrorMovie() {
+function HorrorMovie(num) {
   document.write(
     " <style> body{ background-color: darkslategray ; color : white ; }  </style> ")
-
+document.write(  " Movie Number "  + num)
   document.write("    <h4>   A Christmas Carol   </h4>   " +
     " <img src='https://www.movs4u.in/wp-content/uploads/2019/12/ezucVK2MpmkUZTyoB9VrVbXbpsf-185x278.jpg' alt='A Christmas Carol' /> "
     +
