@@ -2,25 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> MOVIES </title>
-<script src="Scripts/script.js"></script>
-
+	<title> MOVIES </title>
 </head>
 
 <body>
-
-    <header>
-
+	<header>
 
 
 
-        <table>
-            <th>
-            <td>
-                <img style="width: 50px ; height: 50px; padding-right: 20px ;"
+
+		<table>
+			<th>
+				<td>
+					<img style="width: 50px ; height: 50px; padding-right: 20px ;"
                     src="https://i.pinimg.com/736x/fc/eb/df/fcebdf9e34ad5d5f1d8f728f781a00ac.jpg" alt="movies logo" />
 
             </td>
@@ -54,7 +51,7 @@
             </td>
             </th>
         </table>
-    </header>
+</header>
 
     <main>
 
@@ -64,7 +61,8 @@
             </h3>
 
             <ul>
-                <li>
+                <!-- 
+                  <li>
                     <h4>
 
                         A Christmas Carol
@@ -79,27 +77,6 @@
                     </p>
 
                 </li>
-
-
-
-                <li>
-                    <h4>
-
-
-                        Resident Alien
-                    </h4>
-                    <img src="https://www.movs4u.in/wp-content/uploads/2021/01/aM6kelZLBuBSrR0Bt5sJ7j4BaDZ-185x278.jpg"
-                        alt="
-                        Resident Alien" />
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam quam voluptatum voluptate
-                        quibusdam quidem fuga accusantium alias eum praesentium placeat sed omnis, a modi rem quisquam
-                        ex minus nostrum obcaecati! Iure aut quas adipisci non, minima, qui excepturi rerum consequuntur
-                        debitis repellendus nisi
-                    </p>
-                </li>
-
-
-
                 <li>
                     <h4>
 
@@ -141,7 +118,8 @@
                     </p>
                     </p>
 
-                </li>
+                </li> 
+                -->
             </ul>
         </section>
 
@@ -159,26 +137,5 @@
     </footer>
 
 </body>
-
-<script>
-
-    var movieType = prompt(" What kind of movies do you like?Horror or Crime")
-
-    if (movieType == "horror" || movieType == "h") {
-        document.write(
-            " <style> body{ background-color: darkslategray ; color : white ; }  </style> ")
-    } else if (movieType == "crime" || movieType == "c") {
-        document.write(
-            " <style> body{ background-color: #660C23 ; color : white ; }  </style> ")
-    }
-    else if (movieType == null) {
-        alert(" you aren't Like movies ?!")
-    }
-    else {
-        alert("so you Like " + movieType)
-
-    }
-
-</script>
-
+<script src="Scripts/script.js"></script>
 </html>
