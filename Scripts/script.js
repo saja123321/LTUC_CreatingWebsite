@@ -24,6 +24,8 @@ while (movieType != "horror" && movieType != "h" && movieType != "H" && movieTyp
     }
     
      else if (movieType == "crime" || movieType == "c" || movieType == "C") {
+        document.write(
+            " <style> body{ background-color: #660C23 ; color : white ; }  </style> ")
        document.write("    <h4>   Babysitter Must Die   </h4>   " +
      " <img src='https://www.movs4u.in/wp-content/uploads/2021/06/Al6j2dL1ZJdDHS8x0QD2qNNZ9Y6-185x278.jpg' alt='Babysitter Must Die' /> " 
      +
